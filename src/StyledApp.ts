@@ -4,7 +4,6 @@ export const StyledMain = styled.main`
   box-sizing: border-box;
   max-width: 100vw;
   margin: 0;
-  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;

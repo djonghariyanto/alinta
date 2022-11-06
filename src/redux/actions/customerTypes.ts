@@ -1,2 +1,0 @@
-export const ADD_CUSTOMER = "ADD_CUSTOMER";
-export const REMOVE_CUSTOMER = "REMOVE_CUSTOMER";

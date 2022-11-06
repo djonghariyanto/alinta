@@ -11,6 +11,23 @@ html {
   box-sizing: inherit;
 }
 
+button {
+  cursor: pointer;
+  outline: none;
+  border: unset;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  margin:0;
+  padding: 0;
+  height: 40px;
+  justify-content: inherit;
+  align-items: inherit;
+  border-radius: inherit;
+  display: block;
+  width: 100%;
+}
+
 /** Defined global styles **/
 body {
   font-family: "AvenirLTPro-Roman", Arial, Tahoma, sans-serif;
@@ -23,8 +40,25 @@ body {
   height: 100vh;
 }
 
+/** define default variable **/
 #root {
   height: 100vh;
+  --main-color: rgb(4, 121, 205);
+  --secondary-color: rgb(5, 151, 255);
+  --error-color: #dc1616;
+  --default-primary-button-selected-bgcolor: black;
+  --default-primary-button-bgcolor: rgb(4, 121, 205);
+  --default-primary-button-hover-bgcolor: rgb(5, 151, 255);
+  --default-primary-button-radius: 8px;
+  --default-primary-button-color: #fff;
+  --default-secondary-button-selected-bgcolor: black;
+  --default-secondary-button-bgcolor: #dc1616;
+  --default-secondary-button-hover-bgcolor: rgb(5, 151, 255);
+  --default-secondary-button-radius: 8px;
+  --default-secondary-button-color: #fff;
+  --default-flat-button-color: rgb(4, 121, 205);
+  --default-flat-button-radius: 8px;
+  --default-flat-button-hover-bgcolor: rgb(5, 151, 255);
 }
 
 h1 {

@@ -1,7 +1,9 @@
 import * as React from "react";
-import { StyledMain, StyledHeader, StyledHeaderText } from "./StyledApp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./views/Home";
+
+import Home from "./views/home";
+import ModalProxy from "./features/modal/components/proxy";
+import { StyledMain, StyledHeader, StyledHeaderText } from "./StyledApp";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +18,7 @@ const App: React.FC = () => {
           </Route>
         </Switch>
       </Router>
+      <ModalProxy/>
     </StyledMain>
   );
 };
